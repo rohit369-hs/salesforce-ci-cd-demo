@@ -1,0 +1,110 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "CustomField",
+          "url": "/services/data/v60.0/tooling/sobjects/CustomField/00NGB00000QEssK2AT"
+        },
+        "Metadata": {
+          "businessOwnerGroup": null,
+          "businessOwnerUser": null,
+          "businessStatus": null,
+          "caseSensitive": null,
+          "complianceGroup": null,
+          "customDataType": null,
+          "defaultValue": null,
+          "deleteConstraint": null,
+          "deprecated": null,
+          "description": null,
+          "displayFormat": null,
+          "displayLocationInDecimal": null,
+          "elementType": null,
+          "encryptionScheme": null,
+          "escapeMarkup": null,
+          "externalDeveloperName": null,
+          "externalId": false,
+          "formula": null,
+          "formulaTreatBlanksAs": null,
+          "inlineHelpText": null,
+          "isAIPredictionField": null,
+          "isConvertLeadDisabled": null,
+          "isFilteringDisabled": null,
+          "isNameField": null,
+          "isSortingDisabled": null,
+          "label": "Active",
+          "length": null,
+          "lookupFilter": null,
+          "maskChar": null,
+          "maskType": null,
+          "metadataRelationshipControllingField": null,
+          "mktDataLakeFieldAttributes": null,
+          "mktDataModelFieldAttributes": null,
+          "populateExistingRows": null,
+          "precision": null,
+          "readOnlyProxy": null,
+          "referenceTargetField": null,
+          "referenceTo": null,
+          "relationshipLabel": null,
+          "relationshipName": null,
+          "relationshipOrder": null,
+          "reparentableMasterDetail": null,
+          "required": false,
+          "restrictedAdminField": null,
+          "scale": null,
+          "securityClassification": null,
+          "startingNumber": null,
+          "stripMarkup": null,
+          "summarizedField": null,
+          "summaryFilterItems": null,
+          "summaryForeignKey": null,
+          "summaryOperation": null,
+          "trackFeedHistory": false,
+          "trackHistory": null,
+          "trackTrending": null,
+          "translateData": null,
+          "type": "Picklist",
+          "unique": null,
+          "urls": null,
+          "valueSet": {
+            "controllingField": null,
+            "restricted": null,
+            "valueSetDefinition": {
+              "sorted": false,
+              "value": [
+                {
+                  "color": null,
+                  "default": false,
+                  "description": null,
+                  "isActive": null,
+                  "label": "No",
+                  "urls": null,
+                  "valueName": "No"
+                },
+                {
+                  "color": null,
+                  "default": false,
+                  "description": null,
+                  "isActive": null,
+                  "label": "Yes",
+                  "urls": null,
+                  "valueName": "Yes"
+                }
+              ]
+            },
+            "valueSetName": null,
+            "valueSettings": null
+          },
+          "visibleLines": null,
+          "writeRequiresMasterRead": null
+        }
+      }
+    ],
+    "totalSize": 1,
+    "done": true
+  },
+  "warnings": [
+    "The \"force data soql query\" command has been deprecated. Use \"data query\" instead."
+  ]
+}
